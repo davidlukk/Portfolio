@@ -1,184 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Yasmin Pavarin</title>
+    <link rel="shortcut icon" href="assets/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - David Lucca</title>
-    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-
-<body>
+  <body>
     <!-- SOBRE -->
     <header class="header">
-        <a href="#sobre" class="logo">David
-            <span>Lucca</span></a>
+      <a href="#sobre" class="logo">Yasmin <span>Pavarin</span></a>
 
-        <nav class="navbar" id="myNav">
-            <a href="#sobre" class="active">Sobre Mim</a>
-            <a href="#educação">Educação</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#contato">Contatos</a>
-        </nav>
+      <nav class="navbar" id="myNav">
+        <a href="#sobre" class="active">Sobre Mim</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contatos</a>
+      </nav>
     </header>
 
     <section class="sobre" id="sobre">
-        <div class="sobre-content">
-            <h1>Olá, sou o <span>David</span></h1>
-            <h3 class="text-animation">Sou <span></span></h3>
-            <p>Desenvolvedor Front-End, com experiência em React, CSS, JavaScript, HTML e UX/UI.
-                Certificado e graduado em Análise e Desenvolvimento de Sistemas pela São Paulo Tech School e técnico
-                em Programação de Jogos Digitais na ETEC.</p><br>
-            <p>Veja os cursos e outras informações no meu LinkedIn.</p>
+      <div class="sobre-content">
+        <h1>Olá, sou a <span>Yasmin</span></h1>
+        <h3 class="text-animation">Sou <span>Designer de Interiores</span></h3>
+        <p>
+          Me chamo Yasmin Nogueira Pavarin, sou especializada em design de
+          interiores, com experiência em projetos residenciais, comerciais e
+          executivos. Minha missão é criar ambientes que sejam ao mesmo tempo
+          funcionais e estéticos, sempre alinhados às necessidades e
+          expectativas de cada cliente.
+        </p>
+        <br />
 
-            <div class="social-icons">
-                <a href="https://www.linkedin.com/in/david-lucca-silva/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/davidlukk"><i class='bx bxl-github'></i></a>
-                <a
-                    href="https://wa.me/5511980842697?text=Ol%C3%A1%2C%20vi%20seu%20portfolio%20e%20gostaria%20de%20conversar!"><i
-                        class='bx bxl-whatsapp'></i></a>
-                <a href="https://www.instagram.com/dc.lucca/"><i class='bx bxl-instagram'></i></a>
-            </div>
-
-            <div class="btn-group">
-                <a href="#contato" class="btn">Contatar</a>
-            </div>
+        <div class="social-icons">
+          <a
+            href="https://wa.link/od196i"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/yasminpavarin/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
         </div>
 
-        <div class="sobre-img">
-            <img src="assets/image.jpg" alt="">
+        <div class="btn-group">
+          <a href="#contato" class="btn">Contatar</a>
         </div>
+      </div>
 
+      <div class="sobre-img">
+        <img src="assets/image.jpg" alt="" />
+      </div>
     </section>
 
 
-    <!-- EDUCAÇÃO -->
-    <section class="educação" id="educação">
-        <h2 class="heading">Educação</h2>
-
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2021</div>
-                <div class="timeline-content">
-                    <h3>Ensino Médio</h3>
-                    <p>Estudei na ETEC Ferraz de Vasconcelos, onde me formei como Técnico em
-                        Programação de Jogos Digitais. Lá tive meus primeiros contatos com a
-                        técnologia e programação. Meu TCC do ensino médio foi construir um jogo do zero, utilizando C#,
-                        Unity e plataformas de Design 3D.</p>
+    <!-- Projetos -->
+    <section class="projetos" id="projetos">
+      <h2 class="heading">Projetos</h2>
+    
+      <div class="projetos-container">
+        <!-- Grupo de projetos residenciais -->
+        <div class="projetos-grupo">
+          <h3>Projetos Residenciais</h3>
+            <div class="projeto">
+                <img src="assets/imagem1.jpg" alt="Projeto Residencial 1">
+                <div class="projeto-info">
+                    <h4>Projeto Residencial</h4>
+                    <p>Layout</p>
                 </div>
             </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023</div>
-                <div class="timeline-content">
-                    <h3>Faculdade</h3>
-                    <p>Sou formado em Análise e Desenvolvimento de Sistemas pela SPTech (São Paulo Tech School). Tive a
-                        oportunidade de estar presente em projetos utilizando diferente linguagens de programação e
-                        frameworks. Tais como Java, C#, SQL, HTML, CSS, JavaScript, React e bibliotecas como por exemplo
-                        o Bootstrap. Atuava como frente em UX/UI Design e Front-End nos projetos em grupo e no TCC.</p>
+            <div class="projeto">
+                <img src="assets/imagem7.jpg" alt="Projeto Residencial 2">
+                <div class="projeto-info">
+                    <h4>Projeto Residencial</h4>
+                    <p>Imagem 3D sala de estar</p>
                 </div>
             </div>
-
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2023</div>
-                <div class="timeline-content">
-                    <h3>Estágio</h3>
-                    <p>Trabalhei por 1 ano e meio na Deloitte como estágiario. Minha função era a sustentação de um
-                        projeto em .Net, C# e utilizando procedures em SQL. Atuávamos com repositório de versões na
-                        Azure DevOps. Eu atuava como N1 e N2 em atendimento de chamados e resolução de bugs envolvendo a
-                        plataforma.</p>
+            <div class="projeto">
+                <img src="assets/imagem8.jpg" alt="Projeto Residencial 3">
+                <div class="projeto-info">
+                    <h4>Projeto Residencial</h4>
+                    <p>Imagem 3D cozinha</p>
                 </div>
             </div>
+        </div>
+    
+        <!-- Grupo de projetos executivos -->
+        <div class="projetos-grupo">
+          <h3>Projetos Executivos</h3>
+          <div class="projeto">
+            <img src="assets/imagem2.jpg" alt="Projeto Executivo 1" />
+            <div class="projeto-info">
+              <h4>Projeto Executivo</h4>
+              <p>Planta de iluminação</p>
+            </div>
+          </div>
+          <div class="projeto">
+            <img src="assets/imagem3.jpg" alt="Projeto Executivo 2" />
+            <div class="projeto-info">
+              <h4>Projeto Executivo</h4>
+              <p>Planta paginação de piso</p>
+            </div>
+          </div>~
+          <div class="projeto">
+            <img src="assets/imagem4.jpg" alt="Projeto Residencial 3">
+            <div class="projeto-info">
+                <h4>Projeto Executivo</h4>
+                <p>Planta forro de gesso</p>
+            </div>
+        </div>
+        </div>
+    
+        <!-- Grupo de móveis planejados -->
+        <div class="projetos-grupo">
+          <h3>Móveis Planejados</h3>
+          <div class="projeto">
+            <img src="assets/imagem9.jpg" alt="Móvel Planejado 1" />
+            <div class="projeto-info">
+              <h4>Móveis Planejados</h4>
+              <p>Móvel projetado para bar em apartamento</p>
+            </div>
+          </div>
+          <div class="projeto">
+            <img src="assets/imagem10.jpg" alt="Móvel Planejado 2" />
+            <div class="projeto-info">
+              <h4>Móveis Planejados</h4>
+              <p>Vista</p>
+            </div>
+          </div>
+          <div class="projeto">
+            <img src="assets/imagem11.jpg" alt="Móvel Planejado 2" />
+            <div class="projeto-info">
+              <h4>Móveis Planejados</h4>
+              <p>Imagem 3D</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    
 
     <!-- HABILIDADES -->
     <section class="habilidades" id="habilidades">
+      <h2 class="heading">Habilidades</h2>
 
-        <h2 class="heading">
-            Habilidades
-        </h2>
-
-        <div class="habilidades-container">
-            <div class="habilidade-box">
-                <div class="habilidade-info">
-                    <h4>Desenvolvedor Front-End</h4>
-                    <p>Ampla experiência em HTML, CSS e JavaScript, especializado em
-                        frameworks como React. Tenho habilidades em design responsivo e práticas de
-                        acessibilidade, garantindo sites funcionais e inclusivos. Utilizo ferramentas Git
-                        para otimização e controle de versão.</p>
-                </div>
-            </div>
-
-            <div class="habilidade-box">
-                <div class="habilidade-info">
-                    <h4>UX/UI Design</h4>
-                    <p>Grande expertise em criar interfaces intuitivas e funcionais. Especialista em Figma, uso essa
-                        ferramenta para prototipagem e design colaborativo, garantindo uma experiência de usuário coesa
-                        e eficiente. Tenho habilidades em pesquisa de usuários e wireframing, além do trabalho com
-                        acessibilidade.</p>
-                </div>
-            </div>
-
-            <div class="habilidade-box">
-                <div class="habilidade-info">
-                    <h4>Desenvolvedor Fullstack</h4>
-                    <p>Como desenvolvedor fullstack, tenho experiência no back-end com Node.js, e banco
-                        de dados como MySQL. Tenho domínio em acessibilidade e otimização de desempenho, além de
-                        utilizar ferramentas como Docker e Git. Também tenho experiência com serviços de dados da AWS.
-                    </p>
-                </div>
-            </div>
-
-            <div class="habilidade-box">
-                <div class="habilidade-info">
-                    <h4>Desenvolvedor Backend</h4>
-                    <p>Back-end com experiência em Java, C# e .NET. Ajudo na criação de APIs
-                        robustas e escaláveis, além de integrar serviços e sistemas. Tenho habilidades em
-                        otimização de desempenho, segurança e automação de processos.</p>
-                </div>
-            </div>
+      <div class="habilidades-container">
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+            <h4>AutoCad</h4>
+            <p>
+              Experiência com AutoCAD no desenvolvimento de projetos de design
+              de interiores, incluindo plantas baixas e modelos 3D detalhados.
+            </p>
+          </div>
         </div>
 
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+            <h4>Enscape</h4>
+            <p>
+              Habilidade em criar visualizações 3D em tempo real, gerando
+              renders de alta qualidade que proporcionam apresentações realistas
+              e imersivas de projetos de design de interiores.
+            </p>
+          </div>
+        </div>
+
+        <div class="habilidade-box">
+          <div class="habilidade-info">
+            <h4>Sketchup</h4>
+            <p>
+              Experiência na criação de modelos 3D detalhados, desenvolvendo
+              layouts e visualizações precisas que facilitam a compreensão e
+              comunicação de ideias para clientes e equipes.
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <div class="contato" id="contato">
-        <footer class="footer">
-            <h2 class="heading">Contate-<span>Me</span></h2>
-            <div class="social">
-                <a href="https://www.linkedin.com/in/david-lucca-silva/"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/davidlukk"><i class='bx bxl-github'></i></a>
-                <a
-                    href="https://wa.me/5511980842697?text=Ol%C3%A1%2C%20vi%20seu%20portfolio%20e%20gostaria%20de%20conversar!"><i
-                        class='bx bxl-whatsapp'></i></a>
-                <a href="https://www.instagram.com/dc.lucca/"><i class='bx bxl-instagram'></i></a>
-            </div>
+      <footer class="footer">
+        <h2 class="heading">Contate-<span>Me</span></h2>
+        <div class="social">
+          <a
+            href="https://wa.link/od196i"
+            ><i class="bx bxl-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/yasminpavarin/"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
 
-            <ul class="list">
-                <li>
-                    <a href="#sobre">Sobre Mim</a>
-                </li>
+        <ul class="list">
+          <li>
+            <a href="#sobre">Sobre Mim</a>
+          </li>
 
-                <li>
-                    <a href="#habilidades">Habilidades</a>
-                </li>
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
 
-                <li>
-                    <a href="#contato">Contate-me</a>
-                </li>
-            </ul>
-            <p class="copyright">
-                © David Lucca | Todos os Direitos Reservados
-            </p>
-        </footer>
+          <li>
+            <a href="#contato">Contate-me</a>
+          </li>
+        </ul>
+        <p class="copyright">© Yasmin Pavarin | Todos os Direitos Reservados</p>
+      </footer>
     </div>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
